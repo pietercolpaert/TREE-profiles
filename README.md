@@ -34,13 +34,16 @@ In the TREE profile we propose to speed up the parsing by indicating to a parser
 ## An example
 
 ```turtle
+@prefix ex: <https://example.org/> .
+@prefix tree: <https://w3id.org/tree/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
 # @group begin
 ex:Collection1 a tree:Collection;
             rdfs:label "A Collection of 2 subjects"@en;
 # @group end
 # @group begin
-            tree:member ex:Subject1;
+            tree:member ex:Subject1 .
 ex:Subject1 a ex:Subject ;
             rdfs:label "Subject 1" ;
             ex:linkedTo [ a ex:Subject ] .
