@@ -8,7 +8,7 @@ The profile allows TREE clients to speed up parsing of individual members.
 
 Servers add `;profile="https://w3id.org/tree/profile"` to the content-type headers on top of their Turtle (or the likes) responses, such as `Content-Type: text/turtle;profile="https://w3id.org/tree/profile`.
 
-For the highest performance, pick `Content-Type: application/n-quads;profile="https://w3id.org/tree/profile`.
+For the highest performance, pick `Content-Type: application/n-quads;profile="https://w3id.org/tree/profile"`.
 
 In the TREE profile we propose to speed up the parsing by indicating to a parser that:
  * All triples related to the hypermedia MUST be grouped together at the beginning of the document.
