@@ -1,6 +1,6 @@
-# TREE-N3-profiles
+# TREE-profiles
 
-Profiles for N3 serializations such as n-triples, turtle and TRiG to first contain a group for the hypermedia, and then contain groups for the members.
+Profiles for serializations such as n-triples, turtle and TRiG to first contain a group for the hypermedia, and then contain groups for the members.
 
 The profile allows TREE clients to speed up parsing of individual members.
 
